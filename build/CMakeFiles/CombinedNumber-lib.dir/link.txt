@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCombinedNumber-lib.a  CMakeFiles/CombinedNumber-lib.dir/src/CombinedNumber.cpp.o
-/usr/bin/ranlib libCombinedNumber-lib.a

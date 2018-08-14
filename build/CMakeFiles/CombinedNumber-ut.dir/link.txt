@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/CombinedNumber-ut.dir/test/CombinedNumberTests.cpp.o CMakeFiles/CombinedNumber-ut.dir/test/test_main.cpp.o  -o CombinedNumber-ut googletest-build/googlemock/gtest/libgtest.a libCombinedNumber-lib.a -pthread 
