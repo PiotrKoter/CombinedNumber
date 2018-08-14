@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/piotr/CombinedNumber/src/CombinedNumber.hpp
+
+/home/piotr/CombinedNumber/src/main.cpp
+iostream
+-
+CombinedNumber.hpp
+/home/piotr/CombinedNumber/src/CombinedNumber.hpp
+
