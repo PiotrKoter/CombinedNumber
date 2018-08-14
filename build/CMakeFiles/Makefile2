@@ -137,8 +137,8 @@ clean: CMakeFiles/CombinedNumber-lib.dir/clean
 # Target rules for target CMakeFiles/CombinedNumber-ut.dir
 
 # All Build rule for target.
-CMakeFiles/CombinedNumber-ut.dir/all: googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/CombinedNumber-ut.dir/all: CMakeFiles/CombinedNumber-lib.dir/all
+CMakeFiles/CombinedNumber-ut.dir/all: googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/CombinedNumber-ut.dir/build.make CMakeFiles/CombinedNumber-ut.dir/depend
 	$(MAKE) -f CMakeFiles/CombinedNumber-ut.dir/build.make CMakeFiles/CombinedNumber-ut.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/CombinedNumber/build/CMakeFiles --progress-num=5,6,7 "Built target CombinedNumber-ut"
@@ -215,8 +215,8 @@ googletest-build/googlemock/preinstall: googletest-build/googlemock/gtest/preins
 # Target rules for target googletest-build/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
 googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: googletest-build/googlemock/CMakeFiles/gmock.dir/all
+googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: googletest-build/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piotr/CombinedNumber/build/CMakeFiles --progress-num=10,11 "Built target gmock_main"
